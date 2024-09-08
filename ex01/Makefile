@@ -6,7 +6,7 @@
 #    By: rshatra <rshatra@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/09/05 13:45:28 by rshatra           #+#    #+#              #
-#    Updated: 2024/09/06 18:35:27 by rshatra          ###   ########.fr        #
+#    Updated: 2024/09/08 15:56:43 by rshatra          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME = zombie_horde
 CFLAGS = -g -Wall -Werror -Wextra
 CC = g++
 
-SRCS = main.cpp Zombie.cpp
+SRCS = main.cpp Zombie.cpp ZombieHorde.cpp
 
 OBJ = $(SRCS:.cpp=.o)
 
