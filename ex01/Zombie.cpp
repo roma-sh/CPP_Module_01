@@ -6,7 +6,7 @@
 /*   By: rshatra <rshatra@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/05 13:45:40 by rshatra           #+#    #+#             */
-/*   Updated: 2024/09/06 18:35:30 by rshatra          ###   ########.fr       */
+/*   Updated: 2024/09/08 12:50:25 by rshatra          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,11 @@
 
 Zombie::Zombie()
 {
+}
+
+Zombie::Zombie(std::string data )
+{
+	name = data;
 }
 
 Zombie::~Zombie()

@@ -6,11 +6,16 @@
 /*   By: rshatra <rshatra@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/05 13:45:40 by rshatra           #+#    #+#             */
-/*   Updated: 2024/09/05 16:34:26 by rshatra          ###   ########.fr       */
+/*   Updated: 2024/09/08 12:36:36 by rshatra          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
+
+Zombie::Zombie()
+{
+	name = "Unknown";
+}
 
 Zombie::Zombie(std::string data )
 {
